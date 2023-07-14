@@ -1,0 +1,95 @@
+Starting the scan chain attack...
+Starting to extract the input indices mapping in the scan chain bits...
+Found the input indices in the scan chain ordered by input bits from LSB to MSB:
+ [32, 28, 67, 88, 243, 149, 240, 73, 45, 150, 68, 39, 77, 207, 179, 199, 185, 20, 203, 46, 111, 169, 167, 13, 191, 130, 4, 106, 194, 83, 255, 239, 223, 182, 7, 202, 61, 14, 245, 34, 161, 195, 41, 36, 153, 40, 122, 76, 100, 215, 112, 95, 129, 171, 66, 126, 114, 219, 144, 10, 121, 55, 154, 35, 125, 222, 54, 177, 208, 209, 93, 12, 2, 212, 226, 214, 11, 65, 21, 50, 1, 156, 135, 33, 236, 38, 29, 204, 183, 228, 181, 69, 97, 178, 85, 198, 105, 96, 63, 159, 15, 220, 25, 254, 80, 87, 217, 3, 131, 246, 231, 148, 225, 200, 99, 252, 49, 189, 152, 224, 9, 124, 48, 192, 146, 82, 233, 74]
+Found the input indices dictionary in the scan chain ordered by input bits from LSB to MSB:
+ {0: 32, 1: 28, 2: 67, 3: 88, 4: 243, 5: 149, 6: 240, 7: 73, 8: 45, 9: 150, 10: 68, 11: 39, 12: 77, 13: 207, 14: 179, 15: 199, 16: 185, 17: 20, 18: 203, 19: 46, 20: 111, 21: 169, 22: 167, 23: 13, 24: 191, 25: 130, 26: 4, 27: 106, 28: 194, 29: 83, 30: 255, 31: 239, 32: 223, 33: 182, 34: 7, 35: 202, 36: 61, 37: 14, 38: 245, 39: 34, 40: 161, 41: 195, 42: 41, 43: 36, 44: 153, 45: 40, 46: 122, 47: 76, 48: 100, 49: 215, 50: 112, 51: 95, 52: 129, 53: 171, 54: 66, 55: 126, 56: 114, 57: 219, 58: 144, 59: 10, 60: 121, 61: 55, 62: 154, 63: 35, 64: 125, 65: 222, 66: 54, 67: 177, 68: 208, 69: 209, 70: 93, 71: 12, 72: 2, 73: 212, 74: 226, 75: 214, 76: 11, 77: 65, 78: 21, 79: 50, 80: 1, 81: 156, 82: 135, 83: 33, 84: 236, 85: 38, 86: 29, 87: 204, 88: 183, 89: 228, 90: 181, 91: 69, 92: 97, 93: 178, 94: 85, 95: 198, 96: 105, 97: 96, 98: 63, 99: 159, 100: 15, 101: 220, 102: 25, 103: 254, 104: 80, 105: 87, 106: 217, 107: 3, 108: 131, 109: 246, 110: 231, 111: 148, 112: 225, 113: 200, 114: 99, 115: 252, 116: 49, 117: 189, 118: 152, 119: 224, 120: 9, 121: 124, 122: 48, 123: 192, 124: 146, 125: 82, 126: 233, 127: 74}
+Found the input indices dictionary in the scan chain ordered by scan bits from LSB to MSB:
+ {1: 80, 2: 72, 3: 107, 4: 26, 7: 34, 9: 120, 10: 59, 11: 76, 12: 71, 13: 23, 14: 37, 15: 100, 20: 17, 21: 78, 25: 102, 28: 1, 29: 86, 32: 0, 33: 83, 34: 39, 35: 63, 36: 43, 38: 85, 39: 11, 40: 45, 41: 42, 45: 8, 46: 19, 48: 122, 49: 116, 50: 79, 54: 66, 55: 61, 61: 36, 63: 98, 65: 77, 66: 54, 67: 2, 68: 10, 69: 91, 73: 7, 74: 127, 76: 47, 77: 12, 80: 104, 82: 125, 83: 29, 85: 94, 87: 105, 88: 3, 93: 70, 95: 51, 96: 97, 97: 92, 99: 114, 100: 48, 105: 96, 106: 27, 111: 20, 112: 50, 114: 56, 121: 60, 122: 46, 124: 121, 125: 64, 126: 55, 129: 52, 130: 25, 131: 108, 135: 82, 144: 58, 146: 124, 148: 111, 149: 5, 150: 9, 152: 118, 153: 44, 154: 62, 156: 81, 159: 99, 161: 40, 167: 22, 169: 21, 171: 53, 177: 67, 178: 93, 179: 14, 181: 90, 182: 33, 183: 88, 185: 16, 189: 117, 191: 24, 192: 123, 194: 28, 195: 41, 198: 95, 199: 15, 200: 113, 202: 35, 203: 18, 204: 87, 207: 13, 208: 68, 209: 69, 212: 73, 214: 75, 215: 49, 217: 106, 219: 57, 220: 101, 222: 65, 223: 32, 224: 119, 225: 112, 226: 74, 228: 89, 231: 110, 233: 126, 236: 84, 239: 31, 240: 6, 243: 4, 245: 38, 246: 109, 252: 115, 254: 103, 255: 30}
+Starting to extract the byte candidates for RK0 and the main key of the AES algorithm...
+Starting the loop on all bytes of input and key registers to find the key candidate bytes...
+Starting to find data register indices in scan chain for byte number 0
+Data register indices in scan chain for byte number 0 :
+ [6, 8, 23, 60, 81, 91, 92, 118, 136, 155, 173, 193, 197, 221, 227, 232, 251, 5, 51, 75, 110, 137, 162, 166, 188, 234, 235, 104, 0, 71, 175, 213]
+Starting to find candidate key bytes for byte number 0
+Found candidate key bytes for byte number 0
+Starting to find data register indices in scan chain for byte number 1
+Data register indices in scan chain for byte number 1 :
+ [24, 30, 37, 44, 47, 94, 115, 120, 163, 164, 168, 237, 249, 18, 42, 59, 79, 113, 117, 127, 158, 206, 211, 242, 108, 116, 147, 184, 241, 22, 70, 141]
+Starting to find candidate key bytes for byte number 1
+Found candidate key bytes for byte number 1
+Starting to find data register indices in scan chain for byte number 2
+Data register indices in scan chain for byte number 2 :
+ [26, 43, 52, 53, 56, 57, 58, 62, 78, 84, 98, 103, 133, 139, 170, 190, 216, 218, 244, 247, 250, 101, 107, 132, 138, 140, 143, 187, 205, 229, 151, 230]
+Starting to find candidate key bytes for byte number 2
+Found candidate key bytes for byte number 2
+Starting to find data register indices in scan chain for byte number 3
+Data register indices in scan chain for byte number 3 :
+ [17, 19, 27, 31, 86, 89, 90, 123, 128, 134, 145, 160, 165, 172, 174, 180, 196, 201, 210, 238, 16, 72, 109, 157, 176, 186, 253, 64, 102, 119, 142, 248]
+Starting to find candidate key bytes for byte number 3
+Found candidate key bytes for byte number 3
+Starting to find data register indices in scan chain for byte number 4
+Data register indices in scan chain for byte number 4 :
+ [16, 17, 27, 31, 64, 86, 119, 128, 134, 142, 145, 165, 172, 196, 201, 253, 19, 90, 102, 109, 123, 157, 160, 174, 176, 186, 238, 248, 210, 72, 89, 180]
+Starting to find candidate key bytes for byte number 4
+Found candidate key bytes for byte number 4
+Starting to find data register indices in scan chain for byte number 5
+Data register indices in scan chain for byte number 5 :
+ [6, 110, 137, 155, 193, 213, 227, 232, 235, 251, 5, 23, 51, 71, 75, 91, 92, 104, 136, 162, 166, 173, 175, 188, 197, 221, 234, 8, 60, 0, 81, 118]
+Starting to find candidate key bytes for byte number 5
+Found candidate key bytes for byte number 5
+Starting to find data register indices in scan chain for byte number 6
+Data register indices in scan chain for byte number 6 :
+ [18, 22, 24, 30, 42, 44, 47, 113, 115, 117, 120, 141, 147, 168, 184, 206, 211, 237, 241, 242, 249, 37, 70, 79, 116, 158, 163, 164, 59, 94, 108, 127]
+Starting to find candidate key bytes for byte number 6
+Found candidate key bytes for byte number 6
+Starting to find data register indices in scan chain for byte number 7
+Data register indices in scan chain for byte number 7 :
+ [26, 52, 53, 57, 62, 78, 84, 98, 103, 132, 138, 140, 143, 151, 170, 187, 205, 218, 229, 230, 244, 43, 107, 216, 247, 56, 58, 101, 133, 190, 250, 139]
+Starting to find candidate key bytes for byte number 7
+Found candidate key bytes for byte number 7
+Starting to find data register indices in scan chain for byte number 8
+Data register indices in scan chain for byte number 8 :
+ [26, 43, 52, 56, 58, 62, 101, 103, 107, 132, 133, 139, 140, 143, 151, 170, 187, 205, 218, 229, 230, 247, 53, 57, 138, 190, 216, 78, 84, 244, 250, 98]
+Starting to find candidate key bytes for byte number 8
+Found candidate key bytes for byte number 8
+Starting to find data register indices in scan chain for byte number 9
+Data register indices in scan chain for byte number 9 :
+ [31, 102, 109, 128, 145, 157, 160, 186, 196, 238, 253, 16, 86, 165, 172, 248, 17, 19, 64, 89, 174, 180, 201, 210, 72, 90, 119, 123, 134, 27, 142, 176]
+Starting to find candidate key bytes for byte number 9
+Found candidate key bytes for byte number 9
+Starting to find data register indices in scan chain for byte number 10
+Data register indices in scan chain for byte number 10 :
+ [6, 8, 51, 71, 75, 92, 104, 118, 137, 162, 166, 188, 193, 197, 213, 227, 234, 235, 251, 5, 23, 81, 136, 232, 0, 60, 91, 110, 155, 173, 175, 221]
+Starting to find candidate key bytes for byte number 10
+Found candidate key bytes for byte number 10
+Starting to find data register indices in scan chain for byte number 11
+Data register indices in scan chain for byte number 11 :
+ [37, 42, 70, 79, 115, 117, 147, 158, 163, 206, 237, 22, 24, 44, 47, 94, 108, 120, 127, 164, 168, 184, 211, 241, 249, 113, 116, 141, 18, 30, 59, 242]
+Starting to find candidate key bytes for byte number 11
+Found candidate key bytes for byte number 11
+Starting to find data register indices in scan chain for byte number 12
+Data register indices in scan chain for byte number 12 :
+ [18, 22, 24, 37, 47, 79, 94, 108, 113, 115, 116, 117, 120, 127, 141, 147, 158, 163, 168, 184, 206, 211, 237, 241, 30, 42, 59, 70, 242, 249, 164, 44]
+Starting to find candidate key bytes for byte number 12
+Found candidate key bytes for byte number 12
+Starting to find data register indices in scan chain for byte number 13
+Data register indices in scan chain for byte number 13 :
+ [43, 56, 78, 98, 101, 103, 107, 139, 151, 170, 190, 216, 230, 26, 53, 58, 62, 132, 143, 205, 218, 244, 52, 57, 84, 138, 140, 187, 247, 133, 229, 250]
+Starting to find candidate key bytes for byte number 13
+Found candidate key bytes for byte number 13
+Starting to find data register indices in scan chain for byte number 14
+Data register indices in scan chain for byte number 14 :
+ [16, 27, 123, 142, 160, 172, 176, 186, 72, 109, 165, 174, 180, 210, 102, 128, 145, 157, 196, 201, 248, 17, 19, 64, 90, 31, 86, 89, 119, 238, 134, 253]
+Starting to find candidate key bytes for byte number 14
+Found candidate key bytes for byte number 14
+Starting to find data register indices in scan chain for byte number 15
+Data register indices in scan chain for byte number 15 :
+ [0, 5, 6, 8, 51, 60, 71, 81, 91, 92, 104, 136, 155, 166, 188, 197, 227, 232, 234, 235, 251, 23, 75, 110, 118, 137, 193, 221, 162, 173, 175, 213]
+Starting to find candidate key bytes for byte number 15
+Found candidate key bytes for byte number 15
+Found the byte candidates for RK0 and the main key of the AES algorithm, RK0 byte candidates:
+ [[[1, 1, 1, 0, 1, 1, 1, 0], [1, 1, 1, 0, 1, 1, 1, 1]], [[0, 1, 0, 1, 1, 1, 0, 0], [0, 1, 0, 1, 1, 1, 0, 1]], [[0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 1]], [[1, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, 0, 0, 0, 1, 1]], [[0, 0, 0, 1, 1, 1, 0, 0], [0, 0, 0, 1, 1, 1, 0, 1]], [[1, 0, 1, 1, 0, 0, 0, 0], [1, 0, 1, 1, 0, 0, 0, 1]], [[1, 0, 0, 1, 1, 1, 0, 0], [1, 0, 0, 1, 1, 1, 0, 1]], [[0, 1, 1, 0, 1, 0, 1, 0], [0, 1, 1, 0, 1, 0, 1, 1]], [[0, 1, 1, 0, 1, 0, 0, 0], [0, 1, 1, 0, 1, 0, 0, 1]], [[0, 1, 1, 1, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0, 0, 1]], [[0, 0, 1, 0, 0, 1, 0, 0], [0, 0, 1, 0, 0, 1, 0, 1]], [[1, 1, 0, 1, 1, 1, 0, 0], [1, 1, 0, 1, 1, 1, 0, 1]], [[0, 0, 0, 1, 0, 1, 0, 0], [0, 0, 0, 1, 0, 1, 0, 1]], [[0, 1, 0, 0, 0, 1, 0, 0], [0, 1, 0, 0, 0, 1, 0, 1]], [[0, 0, 1, 1, 1, 0, 1, 0], [0, 0, 1, 1, 1, 0, 1, 1]], [[0, 0, 1, 1, 1, 1, 1, 0], [0, 0, 1, 1, 1, 1, 1, 1]]]
+Starting the brute force search on the all combinations of different key bytes...
+Found one final key that works!, Final Key:
+ ef5c09831cb19d6a697125dc14453b3e
